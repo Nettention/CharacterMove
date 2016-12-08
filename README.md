@@ -1,4 +1,4 @@
-처음에는 이렇게 생긴 싱긒플레이 게임을
+처음에는 이렇게 생긴 싱글플레이 게임을
 
 ![](https://lh4.googleusercontent.com/H5hCnY7X72HlZlLvYg6-2FFzI7EMku8qtb9Z3r_uHP-Gl7Aq1N89s2oXa7VzacehQBxvxyhsMT1c4swvCIAaPhPJV3dgZtM2nYeqs-R2KP4aPBNRYJH3bNSdw7hdDnU-9PXIxUO7)
 
