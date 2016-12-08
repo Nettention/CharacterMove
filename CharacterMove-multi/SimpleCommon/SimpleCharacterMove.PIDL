@@ -1,0 +1,28 @@
+﻿rename cs(std::wstring, System.String);
+
+global Simple 1000 
+{
+
+	RequestLogin([in] std::wstring id, [in] std::wstring password);
+
+	NotifyLoginSuccess();
+	NotifyLoginFailed([in] std::wstring reason);
+
+
+	JoinGameScene([in] float x, [in] float y, [in] float z, [in] float angle);
+
+	Player_Appear([in] int hostID, [in] std::wstring userID, 
+		[in] float x, [in] float y, [in] float z, 
+		[in] float vx, [in] float vy, [in] float vz,
+		[in] float angle);
+	Player_Disappear([in] int hostID);
+
+	Player_Move(
+		[in] float x, [in] float y, [in] float z, 
+		[in] float vx, [in] float vy, [in] float vz,
+		[in] float angle);
+}       
+
+
+
+
