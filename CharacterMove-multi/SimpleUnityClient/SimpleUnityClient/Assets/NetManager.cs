@@ -41,7 +41,7 @@ public class NetManager : MonoBehaviour
         m_netClient.JoinServerCompleteHandler = 
             (ErrorInfo info, ByteArray replyFromServer) =>
         {
-            if (info.errorType == ErrorType.ErrorType_Ok)
+            if (info.errorType == ErrorType.Ok)
             {
                 //#SHOW20 Now, remote call aka. send message!
                 m_proxy.RequestLogin(HostID.HostID_Server, 
